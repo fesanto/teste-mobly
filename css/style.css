@@ -1,0 +1,47 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    text-decoration: none;
+    }
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 120px;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+    background-image: url("img/20190523-Lancamentos-Desktop-1-Destaque.jpg")
+}
+
+main{
+    background-color: #ecebe6;
+}
+
+.lancamentos__banner-2 img{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.lancamentos__firstcards,
+.lancamentos__secondcards,
+.lancamentos__thirdcards{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.lancamentos__firstcards img,
+.lancamentos__secondcards img{
+    padding: 0 10px;
+}
+
+.lancamentos__thirdcards div{
+    display: flex;
+    flex-direction: column;
+}
