@@ -11,35 +11,74 @@
 
 <body>
     <header>
-        <div>
+        <div class="header">
             <label></label>
             <input type="text" placeholder="Encontre sofás, mesas...">
             <button type="submit">Buscar</button>
             <img src="img/logo.PNG">
-            <a href="https://www.mobly.com.br/auto-atendimento/">Atendimento</a>
-            <a href="">Minha Conta</a>
-            <a href="">Favoritos</a>
-            <a href=""></a>
-
+            <ul class="header__options">
+                <li>
+                    <a href="https://www.mobly.com.br/auto-atendimento/">
+                        <img src="img/phone.png">
+                        <span>Atendimento</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/user.png">
+                        <span>Minha Conta</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/like.png">
+                        <span>Favoritos</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="header__cart">
+                <span>
+                    <img src="img/shopping-cart.png">
+                    <p>7</p>
+                    <img src="img/arrow-down-white.png">
+                </span>
+            </div>
         </div>
 
         <nav>
             <ul>
-                <li><a href="">Por ambiente</a></li>
-                <li><a href="">Por categoria</a></li>
-                <li><a href="">Mobly Inspira</a></li>
-                <li><a href="">Lançamentos</a></li>
-                <li><a href="">Outlet</a></li>
-                <li><a href="">Blog</a></li>
+                <li><a href="">Por Ambiente </a><img src="img/arrow-down.png"></li>
+                <li><a href="">Por Categoria </a><img src="img/arrow-down.png"></li>
+                <li><a
+                        href="https://www.mobly.com.br/mobly-inspira/?itm_cpg_name=menu_moblyinspira_principal_x_x_desktop&itm_cpg_position=0_moblyInspira">Mobly
+                        Inspira</a></li>
+                <li><a
+                        href="https://www.mobly.com.br/novidades/?itm_cpg_name=menu_lancamentos_principal_x_x_desktop&itm_cpg_position=1_lancamentos">Lançamentos</a>
+                </li>
+                <li><a
+                        href="https://www.mobly.com.br/preco-especial/moveis/?itm_cpg_name=menu_outlet_principal_x_x_desktop&itm_cpg_position=2_outlet">Outlet</a>
+                </li>
+                <li><a
+                        href="https://www.mobly.com.br/blog/?itm_cpg_name=menu_blog_principal_x_x_desktop&itm_cpg_position=3_blog">Blog</a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="banner"></section>
-        <section class="lancamentos__firstcards"><img src="img/20190523-Lancamentos-Desktop-1-GrandesOfertas.jpg"><img
+        <section class="banner">
+            <div class="container">
+                <h1>Lançamentos</h1>
+                <p>Todo mês, novidades para você<br>decorar sua casa de M novas maneiras.</p>
+                <a>Veja todas as ofertas</a>
+            </div>
+        </section>
+        <section class="lancamentos__firstcards">
+            <img src="img/20190523-Lancamentos-Desktop-1-GrandesOfertas.jpg"><img
                 src="img/20190523-Lancamentos-Desktop-2-GrandesOfertas.jpg"><img
-                src="img/20190523-Lancamentos-Desktop-3-GrandesOfertas.jpg"></section>
+                src="img/20190523-Lancamentos-Desktop-3-GrandesOfertas.jpg">
+
+        </section>
         <section class="lancamentos__banner-2">
             <img src="img/20190523-Lancamentos-Desktop-4-GrandesOfertas.jpg">
         </section>
